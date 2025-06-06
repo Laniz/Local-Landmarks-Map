@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+#filter-buttons {
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+#filter-buttons button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#filter-buttons button:hover {
+  background-color: #1976D2;
+}
+
+#map {
+  height: calc(100% - 148px);
+  width: 100%;
+}

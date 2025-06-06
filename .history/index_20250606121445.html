@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Local Landmarks Map</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Inline fallback in case style.css isn't loaded */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      height: 90vh;
+      width: 100%;
+    }
+    h1 {
+      margin: 0;
+      padding: 1rem;
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Local Landmarks Map</h1>
+  <div id="map"></div>
+
+  <!-- Load Google Maps JS API -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer>
+  </script>
+
+  <!-- Link to your external JavaScript -->
+  <script src="js/map.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Map</title>
+  <style>
+    /* Basic styling for the map */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+  
+  <script src="js/map.js"></script>
+
+  <!-- Load Google Maps API (insert your API key below) -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3C7PxDgjWGxEUaBc6TZnLIPHJACA4Mp8&callback=initMap"
+    async defer>
+  </script>
+
+</body>
+</html>

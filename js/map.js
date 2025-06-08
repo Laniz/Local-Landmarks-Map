@@ -14,27 +14,49 @@ function initMap() {
   directionsRenderer = new google.maps.DirectionsRenderer({ suppressMarkers: false });
   directionsRenderer.setMap(map);
 
+//   Locations copied from google maps
+//   43.823437901010045, -111.79006926283063 
+// 43.82257094654463, -111.7987381621917
+// 43.813869259747484, -111.79832660622071
+// 43.82232365675065, -111.79183609799912
+// 43.82760734419121, -111.77379970076517
+// 43.82578811295998, -111.80527330813213
+// 43.834673545256045, -111.80141917320746
+// 43.82793614430052, -111.78424050599915
+// 43.82117053411405, -111.78350121386315
+// 43.81708726020096, -111.78327869908773
+// 43.83590025159373, -111.8064612164966
+// 43.825509946959315, -111.78836654748066
+// 43.82771962691352, -111.78741672299672
+// 43.8260083093425, -111.77883678612363
+// 43.83511049894277, -111.7796443094794
+// 43.836531496947366, -111.7755132444946
+// 43.83648182086725, -111.77881793896734
+// 43.85675747009849, -111.77451185658947
+// 43.849042702986594, -111.77318087254118
+// 43.84877982821939, -111.7768968694921
+
   const locations = [
-    { lat: 43.8200, lng: -111.7830, title: "Location 1", type: "park" },
-    { lat: 43.8210, lng: -111.7840, title: "Location 2", type: "shop" },
-    { lat: 43.8220, lng: -111.7850, title: "Location 3", type: "museum" },
-    { lat: 43.8230, lng: -111.7860, title: "Location 4", type: "park" },
-    { lat: 43.8240, lng: -111.7870, title: "Location 5", type: "shop" },
-    { lat: 43.8250, lng: -111.7880, title: "Location 6", type: "museum" },
-    { lat: 43.8260, lng: -111.7890, title: "Location 7", type: "park" },
-    { lat: 43.8270, lng: -111.7900, title: "Location 8", type: "shop" },
-    { lat: 43.8280, lng: -111.7910, title: "Location 9", type: "museum" },
-    { lat: 43.8290, lng: -111.7920, title: "Location 10", type: "park" },
-    { lat: 43.8300, lng: -111.7930, title: "Location 11", type: "shop" },
-    { lat: 43.8310, lng: -111.7940, title: "Location 12", type: "museum" },
-    { lat: 43.8320, lng: -111.7950, title: "Location 13", type: "park" },
-    { lat: 43.8330, lng: -111.7960, title: "Location 14", type: "shop" },
-    { lat: 43.8340, lng: -111.7970, title: "Location 15", type: "museum" },
-    { lat: 43.8350, lng: -111.7980, title: "Location 16", type: "park" },
-    { lat: 43.8360, lng: -111.7990, title: "Location 17", type: "shop" },
-    { lat: 43.8370, lng: -111.8000, title: "Location 18", type: "museum" },
-    { lat: 43.8380, lng: -111.8010, title: "Location 19", type: "park" },
-    { lat: 43.8390, lng: -111.8020, title: "Location 20", type: "shop" }
+    { lat: 43.8234, lng: -111.7900, title: "Porter Park", type: "park" },
+    { lat: 43.825509946959315, lng: -111.78836654748066, title: "Red Rabbit Grill", type: "shop" },
+    { lat: 43.82793614430052, lng: -111.78424050599915, title: "Museum of Rexburg", type: "museum" },
+    { lat: 43.82257094654463, lng: -111.7987381621917, title: "Park Street Park", type: "park" },
+    { lat: 43.82771962691352, lng: -111.78741672299672, title: "Broulim's Fresh Food", type: "shop" },
+    { lat: 43.82117053411405, lng: -111.78350121386315, title: "Geology Museum BYUI", type: "museum" },
+    { lat: 43.813869259747484, lng: -111.79832660622071, title: "Continental Park", type: "park" },
+    { lat: 43.8260083093425, lng: -111.77883678612363, title: "Walgreens", type: "shop" },
+    { lat: 43.81708726020096, lng: -111.78327869908773, title: "Life Science Museum BYUI", type: "museum" },
+    { lat: 43.82232365675065, lng: -111.79183609799912, title: "Rexburg Spary Park", type: "park" },
+    { lat: 43.83511049894277, lng: -111.7796443094794, title: "Dollar Tree", type: "shop" },
+    { lat: 43.83590025159373, lng: -111.8064612164966, title: "Legacy Flight Museum", type: "museum" },
+    { lat: 43.82760734419121, lng: -111.77379970076517, title: "Smith Park", type: "park" },
+    { lat: 43.836531496947366, lng: -111.7755132444946, title: "Albertons", type: "shop" },
+    { lat: 43.83648182086725, lng: -111.77881793896734, title: "The Hickory", type: "shop" },
+    { lat: 43.82578811295998, lng: -111.80527330813213, title: "Evergreen Park", type: "park" },
+    { lat: 43.85675747009849, lng: -111.77451185658947, title: "Wallmart", type: "shop" },
+    { lat: 43.849042702986594, lng: -111.77318087254118, title: "Frozen Dessert Supllies", type: "shop" },
+    { lat: 43.834673545256045, lng: -111.80141917320746, title: "Location 19", type: "park" },
+    { lat: 43.84877982821939, lng: -111.7768968694921, title: "Bargin Bin Treasure", type: "shop" }
   ];
 
   locations.forEach((loc) => {

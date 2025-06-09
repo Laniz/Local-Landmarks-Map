@@ -1,0 +1,60 @@
+## Overview
+
+**Project Title**: Local Landmarks Map
+
+**Project Description**:  
+An interactive web app that displays local landmarks using the Google Maps JavaScript API. It features 20 categorized markers, displays the user’s current location, provides route navigation from the user to any marker. Users can also filter landmarks by type (parks, shops, museums).
+
+**Project Goals**:  
+- Create an interactive and informative map using Google Maps  
+- Display at least 20 markers with associated information  
+- Allow users to click on markers and view location details  
+- Support route navigation with adjustable travel mode  
+- Enable map filtering by data type  
+
+---
+
+## Instructions for Build and Use
+
+Steps to build and/or run the software:
+
+1. Clone or download the project folder  
+2. Open the folder in Visual Studio Code or another editor  
+3. Use the Live Server extension (or another local web server) to open `index.html`
+
+Instructions for using the software:
+
+1. Select your preferred travel mode from the dropdown  
+2. Use the filter buttons to show or hide different types of locations  
+3. Click any marker to see details, and use the “Show Route” button to get navigation directions  
+
+---
+
+## Development Environment 
+
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
+
+* Visual Studio Code (v1.80 or later)
+* Google Chrome or another modern web browser
+* Google Maps JavaScript API (enabled via Google Cloud Console)
+* Live Server (VS Code extension) or Python's `http.server` for local hosting
+
+---
+
+## Useful Websites to Learn More
+
+I found these websites useful in developing this software:
+
+* [Google Maps JavaScript API Documentation](https://developers.google.com/maps/documentation/javascript/overview)
+* [Google Cloud Console](https://console.cloud.google.com/)
+* [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
+
+---
+
+## Future Work
+
+The following items I plan to fix, improve, and/or add to this project in the future:
+
+* [ ] Use custom icons for different marker types  
+* [ ] Add step-by-step directions in a side panel  
+* [ ] Improve mobile responsiveness and layout adaptability  
